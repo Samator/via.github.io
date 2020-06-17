@@ -154,7 +154,6 @@ body{
 .animate{
     position: absolute;
     display: block;
-    z-index: 9999;
     width: 100%;
     height: 100%;
 }
@@ -303,6 +302,7 @@ body{
     background-color: #fff;
     display: none;
     flex-direction: column;
+    z-index: inherit;
 }
 .top-btn{
     padding-left: 5%;
@@ -390,9 +390,6 @@ body{
     font-size: 13px;
     font-weight: bold;
     color: #333333;
-}
-.t{
-    transform: rotate(50deg);
 }
 
 
